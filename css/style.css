@@ -1,0 +1,130 @@
+/* Color palette */
+:root
+{
+  --primary-color: #feb300;
+  --secondary-color: #ebebeb;
+  --tertiary-color: #404040;
+}
+body
+{
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.center
+{
+  text-align: center;
+}
+h1
+{
+  text-align: center;
+}
+.header
+{
+  text-align: center;
+  padding: 20px;
+}
+ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li
+{
+  border: 1px solid #feb300;
+}
+la
+{
+  border: 1px solid #feb300;
+  text-align: center;
+  width: 1000px;
+  margin-left: 25%;
+}
+img
+{
+  border: 2px solid #ac7901;
+}
+/* Category Styles */
+.category
+{
+  border: 1px solid var(--primary-color);
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+}
+.category h2
+{
+  margin-top: 0;
+}
+.category p
+{
+  margin-bottom: 0;
+}
+
+/* List Styles */
+.game-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.game-list li
+{
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: calc(33.33% - 40px);
+}
+.game-list h2
+{
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.game-list p
+{
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+.game-list li
+{
+  flex-basis: 300px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-list h3
+{
+  margin-top: 0;
+}
+
+.game-list p
+{
+  margin-bottom: 0;
+}
+
+.game-list img
+{
+  height: 190px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.game-list .link-button
+{
+  margin-top: 10px;
+}
+.friends-list
+{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}

@@ -1,0 +1,54 @@
+/* Button Styles */
+.link-button,
+.donate-button,
+.imprint-button,
+.back-button,
+.config-button,
+.button
+{
+  background-color: #ffcc00;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.button
+{
+    width: 120px;
+    height: 35px;
+    text-decoration: solid;
+}
+.link-button:hover,
+.donate-button:hover,
+.imprint-button:hover,
+.back-button:hover,
+.config-button:hover,
+.button:hover
+{
+    background-color: #9c7c13;
+}
+/* Button positions */
+.donate-button
+{
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+}
+.imprint-button
+{
+    bottom: 20px;
+    position: fixed;
+    right: 150px;
+}
+.back-button
+{
+    bottom: 20px;
+    font-size: 30px;
+    left: 20px;
+    padding: 10px 20px;
+    position: fixed;
+}
